@@ -199,8 +199,7 @@ def ask_wolfram(question):
 
 # Openai fallback
 from openai import OpenAI
-client = OpenAI(api_key="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"
-)
+client = OpenAI(api_key="PERSONAL API KEY"
 
 def ask_openai(question):
     try:
@@ -255,6 +254,7 @@ btn_ask.pack(pady=5)
 
 btn_listen = tk.Button(window, text="Speak", command=listen_and_ask)
 btn_listen.pack(pady=5)
+
 
 
 
